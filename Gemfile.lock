@@ -1,3 +1,16 @@
+PATH
+  remote: ..
+  specs:
+    packwerk (2.0.0)
+      activesupport (>= 5.2)
+      ast
+      better_html
+      bundler
+      constant_resolver
+      parallel
+      parser
+      sorbet-runtime
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -120,15 +133,6 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
-    packwerk (2.0.0)
-      activesupport (>= 5.2)
-      ast
-      better_html
-      bundler
-      constant_resolver
-      parallel
-      parser
-      sorbet-runtime
     parallel (1.21.0)
     parser (3.0.3.2)
       ast (~> 2.4.1)
@@ -218,7 +222,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
-  packwerk
+  packwerk!
   puma (~> 5.0)
   rails (~> 7.0.0)
   selenium-webdriver

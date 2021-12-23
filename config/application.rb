@@ -18,5 +18,7 @@ module PackwerkRootRails
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.autoload_paths << "#{root}/app/domains/autoload_domain/app/models"
   end
 end
